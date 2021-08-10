@@ -1,20 +1,26 @@
-## Starter project for NextJS, Typescript, and Tailwind CSS
-
+## Hulu Close using NextJS, Typescript, and Tailwind CSS
 ## Getting Started
 
-First, install all the required dependencies:
+First, clone this project repository:
+```
+git clone https://github.com/NovqiGarrix/hulu-clone.git
+```
+
+Second, Open in you favourite code editor and install all the required dependencies:
 ```
 npm install
 # or
 yarn
 ```
 
-Second, run the development server:
+Third, give it a try, with:
 ```
 npm run dev
 # or
 yarn dev
 ```
+
+and your hulu will be running at http://localhost:3000
 
 ## Learn More
 ### To learn more about Next.js, take a look at the following resources:
