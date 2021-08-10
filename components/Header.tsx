@@ -23,7 +23,7 @@ const Header = () => {
             </div>
             <div onClick={() => handleToHome('HOME')} className="cursor-pointer">
                 <Image
-                    src="https://drive.google.com/uc?export=view&id=1H9r6XSLc6P7jEOFjfJnUcEnVe7o1W3aK"
+                    src="https://doc-08-3g-docs.googleusercontent.com/docs/securesc/o135qfnpk5erv10bu3aji13nu1i42q9m/2eda8g69qjs1tkbknubanfj0dh0ikfmb/1628583825000/01148904830813860087/15688299956973086431/1H9r6XSLc6P7jEOFjfJnUcEnVe7o1W3aK?e=view&authuser=0&nonce=pmn6aq0gdvri8&user=15688299956973086431&hash=qf4sgc1ar09shjd4db7utnqemhv9uvp7"
                     width={170}
                     height={90}
                 />
