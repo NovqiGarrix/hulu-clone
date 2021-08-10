@@ -27,6 +27,7 @@ const Card = ({ movie }: any) => {
                 height={1080}
                 layout="responsive"
                 className="object-cover"
+                loading="lazy"
             />
 
             <div className="text-gray-300 group-hover:text-white group-hover:font-semibold">
