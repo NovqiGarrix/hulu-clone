@@ -6,7 +6,7 @@ First, clone this project repository:
 git clone https://github.com/NovqiGarrix/hulu-clone.git
 ```
 
-Second, Open in you favourite code editor and install all the required dependencies:
+Second, Open the whole project in you favourite code editor and install all the required dependencies:
 ```
 npm install
 # or
