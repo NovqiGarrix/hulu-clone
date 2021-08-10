@@ -1,4 +1,4 @@
-## Hulu Close using NextJS, Typescript, and Tailwind CSS
+## Hulu Clone using NextJS, Typescript, and Tailwind CSS
 ## Getting Started
 
 First, clone this project repository:
