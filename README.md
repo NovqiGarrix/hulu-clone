@@ -30,7 +30,7 @@ npm run build
 # or
 yarn run build
 ```
-You can use [https://www.netlify.com/](Netlify) as your web hosting, and it's 100% free!
+You can use [https://www.netlify.com/](Netlify) or even [https://vercel.com](Vercel) as your web hosting, and it's 100% free!
 
 ## Learn More
 ### To learn more about Next.js, take a look at the following resources:
