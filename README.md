@@ -28,7 +28,7 @@ To push your project to Web Hosting or VPS, you have to build the project first.
 ```
 npm run build
 # or
-yarn build
+yarn run build
 ```
 You can use [https://www.netlify.com/](Netlify) as your web hosting, and it's 100% free!
 
