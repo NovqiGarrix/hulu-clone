@@ -23,13 +23,14 @@ yarn dev
 and your hulu will be running at http://localhost:3000
 
 ## Production Environment
-To push your project to Web Hosting, you have to build the project first. To do so, you can run these following command:
+To push your project to Web Hosting or VPS, you have to build the project first. To do so, you can run these following command:
 
 ```
 npm run build
 # or
 yarn build
 ```
+You can use [https://www.netlify.com/](Netlify) as your web hosting, and it's 100% free!
 
 ## Learn More
 ### To learn more about Next.js, take a look at the following resources:
