@@ -1,36 +1,28 @@
-const imdbData = {
-    top250Movies: {
-        "title": "Top 250 Movies",
-        "url": `https://imdb-api.com/en/API/Top250Movies/${process.env.IMDB_APIKEY}`
-    },
-    top250TVs: {
-        "title": "Top 250 TVs",
-        "url": `https://imdb-api.com/en/API/Top250TVs/${process.env.IMDB_APIKEY}`
-    },
-    mostPopularMovies: {
-        "title": "Most Popular Movies",
-        "url": `https://imdb-api.com/en/API/MostPopularMovies/${process.env.IMDB_APIKEY}`
-    },
-    mostPopularTVs: {
-        "title": "Most Popular TVs",
-        "url": `https://imdb-api.com/en/API/MostPopularTVs/${process.env.IMDB_APIKEY}`
-    },
-    inTheaters: {
-        "title": "In Theaters",
-        "url": `https://imdb-api.com/en/API/InTheaters/${process.env.IMDB_APIKEY}`
-    },
-    comingSoon: {
-        "title": "Coming Soon",
-        "url": `https://imdb-api.com/en/API/ComingSoon/${process.env.IMDB_APIKEY}`
-    },
-    boxOffice: {
-        "title": "Box Office",
-        "url": `https://imdb-api.com/en/API/BoxOffice/${process.env.IMDB_APIKEY}`
-    },
-    boxOfficeAllTime: {
-        "title": "Box Office All Time",
-        "url": `https://imdb-api.com/en/API/BoxOfficeAllTime/${process.env.IMDB_APIKEY}`
-    }
-};
+import { StarIcon, BadgeCheckIcon, ClockIcon, LightBulbIcon } from '@heroicons/react/outline';
+import { nowPlayingURL, popularURL, topRatedURL, upcomingURL } from './endpoints';
 
-export default imdbData;
+export default {
+    top_rated: {
+        title: 'TOP RATED',
+        url: topRatedURL,
+        Icon: StarIcon
+    },
+
+    popular: {
+        title: 'POPULAR',
+        url: popularURL,
+        Icon: BadgeCheckIcon
+    },
+
+    upcoming: {
+        title: 'UPCOMING',
+        url: upcomingURL,
+        Icon: ClockIcon
+    },
+
+    now_playing: {
+        title: 'NOW PLAYING',
+        url: nowPlayingURL,
+        Icon: LightBulbIcon
+    },
+}

@@ -1,16 +1,32 @@
 import Card from "./Card";
+import { useSelector } from 'react-redux';
+import Image from 'next/image';
 
-interface CardsProp {
-    movies: [];
-}
+const Cards = () => {
 
-const Cards = ({ movies }: CardsProp) => {
+    const moviesState = useSelector((state: any) => state.globalData);
+    const { movies } = moviesState;
+
+    const NoMovies = () => {
+        return (
+            <div className="flex items-center justify-between w-full h-full">
+                <Image
+                    src="https://drive.google.com/uc?export=view&id=1f5veIFw7JMnaajZt9bot8cbDr2zQ9Bsr"
+                    width={1920}
+                    height={1080}
+                    objectFit="cover"
+                    loading="lazy"
+                />
+            </div>
+        )
+    }
+
     return (
         <div className="sm:grid sm:grid-cols-2 sm:gap-3 md:grid-cols-3 md:gap-4 lg:grid-cols-4 py-5">
-            {movies ? movies.map((x: any, key: number) => (
+            {movies?.length > 0 ? movies?.map((x: any, key: number) => (
                 <Card key={key} movie={x} />
             )) : (
-                <h1 className="text-white font-bold">No Movies found!</h1>
+                <NoMovies />
             )}
         </div>
     )

@@ -1,0 +1,4 @@
+
+export const GENRES_REQUEST = 'GENRES_REQUEST';
+export const GENRES_ERROR = 'GENRES_ERROR';
+export const GENRES_SUCCESS = 'GENRES_SUCCESS';
