@@ -43,7 +43,7 @@ const GenrePage = ({ genreData, movieData }: any) => {
             {/* <Message message={incomeMessage.desc} variant={incomeMessage.type} handleClose={handleClearMessage} /> */}
 
             <Head>
-                <title>Hulu Clone</title>
+                <title>{router.query?.id ? `${router.query.id.toString().toUpperCase()} - Hulu Clone` : `Search ... - Hulu Clone`}</title>
                 <meta name="description" content="Started project for NextJs, tailwind, and typescript" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
